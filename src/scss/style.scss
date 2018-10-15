@@ -10,7 +10,7 @@ $lightgray-color: #ebebeb;
   html {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 18px;
-    
+    scroll-behavior: smooth;
   }
   
 body {
@@ -308,14 +308,96 @@ body {
     background-color: blue;
   }
   
-  .portfolio {
+  /*.portfolio {
     padding: 2rem 4rem;
   
     background-color: #54be90;
     color: white;
+  } */
+
+  .port {
+    padding: 4rem 5rem 4rem 5rem;
+    background-image: linear-gradient(black, #8fc5cd);
   }
   
-  .cards {
+  .port h2 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .containerportfolio {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .framepage {
+    background-image: url('img/highway.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 21rem;
+    width: 21rem;
+    margin: 1rem;
+  }
+  
+  .border:hover {
+    border: 2px solid white;
+  }
+  
+  .frameinfo {
+    background: rgba(0,0,0,0.2);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 21rem;
+    width: 21rem;
+  }
+  
+  .border {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 21rem;
+    width: 21rem;
+    border: 2px solid transparent
+  }
+  
+  .frameinfo p {
+    font-weight: 900;
+    color: #ffffff;
+  }
+  
+  .frameinfo span {
+    color: #cfcfcf;
+    padding-top: 5px;
+  }
+
+
+
+
+
+
+
+
+
+  /* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+
+
+ 
+
+
+
+
+
+
+  /* AAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+  
+  /*.cards {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -373,7 +455,7 @@ body {
     box-shadow: 0px 5px 10px black;
   
     text-decoration: none;
-  }
+  } */
  
   
   .contact {
