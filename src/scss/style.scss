@@ -1,11 +1,4 @@
-/* 
-  # COLOR PALETTE
-  Green:      #54be90
-  Light Grey: #ebebeb
-  Dark Grey:  #232323
-  Grey Text:  #444444
 
-*/
 
 $green-color: #54be90;
 $lightgray-color: #ebebeb;
@@ -20,10 +13,11 @@ $lightgray-color: #ebebeb;
     
   }
   
-  body {
-    
-    background-image: url("../assets/img/astronomy.jpg");
-  }
+body {
+  background-image: url("/img/astronomy.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
   
   .container {
     max-width: 1200px;
@@ -424,5 +418,22 @@ $lightgray-color: #ebebeb;
   
     background-color: #54be90;
   }
+
+
+  .formcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputs {
+    margin-bottom: 4rem;
+  }
+
+  textarea {
+    width: 14.6rem;
+  }
+
 
  
