@@ -284,6 +284,13 @@ body {
     line-height: 2.4rem;
     text-align: center;
   }
+
+  .progress-bar-percent {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-family: "Alegreya Sans";
+    font-weight: 900;
+  }
   
   .progress .bar {
     flex: 1;
@@ -298,7 +305,7 @@ body {
   .progress .knob {
     height: 2.4rem;
   
-    background-color: #54be90;
+    background-color: blue;
   }
   
   .portfolio {
