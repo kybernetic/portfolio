@@ -34,13 +34,7 @@ body {
     font-family: 'Anaheim', sans-serif;
   }
   
-  .logo {
-    width: 220px;
-    height: 50px;
-    flex: 0 0 220px;
   
-    background: white url('img/logo.svg') center center/contain no-repeat scroll;
-  }
   
   nav {
     display: flex;
@@ -121,11 +115,11 @@ body {
   }
   
   .banner {
-    /* height: 535px; */
+  
     margin-top: 75px;
     padding: 6rem 2rem;
   
-    background: #232323 url('img/banner.jpg');
+    background: #232323;
     color: white;
   
     text-align: center;
@@ -308,12 +302,6 @@ body {
     background-color: blue;
   }
   
-  /*.portfolio {
-    padding: 2rem 4rem;
-  
-    background-color: #54be90;
-    color: white;
-  } */
 
   .port {
     padding: 4rem 5rem 4rem 5rem;
@@ -335,7 +323,7 @@ body {
   }
   
   .framepage {
-    background-image: url('img/highway.jpg');
+    background-image: url("/img/astronomy.jpg");
     background-size: cover;
     background-position: center;
     height: 21rem;
@@ -377,85 +365,6 @@ body {
     padding-top: 5px;
   }
 
-
-
-
-
-
-
-
-
-  /* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
-
-
- 
-
-
-
-
-
-
-  /* AAAAAAAAAAAAAAAAAAAAAAAAAAAA */
-  
-  /*.cards {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
-  
-  .card {
-    width: 340px;
-    margin-bottom: 1rem;
-    padding: 8px;
-  
-    background-color: white;
-    color: black;
-  
-    cursor: pointer;
-  }
-  
-  .card:hover {
-    background-color: black;
-  }
-  
-  .card .preview {
-    width: 100%;
-    height: auto;
-  }
-  
-  .card .body {
-    padding: 1rem;
-    background-color: #ebebeb;
-  }
-  
-  .about-me {
-    padding: 2rem 10rem 6rem 10rem;
-  
-    color: black;
-  }
-  
-  .about-me .columns {
-    display: flex;
-  } 
-  
-  .about-me .column {
-    flex: 1;
-  }
-  
-  .about-me .get-in-touch {
-    font-size: 1.2rem;
-  }
-  
-  .contact-me {
-    padding: 0.3rem 3rem;
-  
-    background-color: #54be90;
-    color: white;
-    border-radius: 5px;
-    box-shadow: 0px 5px 10px black;
-  
-    text-decoration: none;
-  } */
  
   
   .contact {
