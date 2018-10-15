@@ -14,7 +14,7 @@ $lightgray-color: #ebebeb;
   }
   
 body {
-  background-image: url("/img/astronomy.jpg");
+  background-image: url("/img/astronomy.jpg"); 
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -28,7 +28,8 @@ body {
   header {
     display: flex;
   
-    color: white;
+    color: lightgray;
+    height: 40px;
   
     font-family: 'Anaheim', sans-serif;
   }
@@ -47,14 +48,7 @@ body {
     background-color: #232323;
   }
   
-  nav .burger {
-    display: none;
-    font-size: 1.8em;
-    padding: 0 0.25em;
-  }
-  nav .burger::after {
-    content: "\2630";
-  }
+  
   
   nav a {
     height: 50px;
