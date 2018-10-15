@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
 
-    <title>Webfolio</title>
+    <title>Personal Portfolio</title>
 </head>
 
 <body>
