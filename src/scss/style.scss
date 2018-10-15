@@ -30,6 +30,7 @@ body {
   
     color: lightgray;
     height: 40px;
+    flex-wrap: nowrap;
   
     font-family: 'Anaheim', sans-serif;
   }
@@ -127,6 +128,7 @@ body {
   
   .banner h1 {
     margin-top: 0;
+    padding-top: 60px;
   }
   .banner .br1 {
     display: none;

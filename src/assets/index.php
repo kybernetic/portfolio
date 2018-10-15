@@ -29,7 +29,7 @@
                     <div class="navbar-inner">
                         <div class="container">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Home</a></li>
+                                
                                 <li><a href="#portfolio">Projects</a></li>
                                 <li><a href="#services">Services</a></li>
                                 <li><a href="#skills">Skills</a></li>
@@ -38,17 +38,17 @@
                         </div>
                     </div>
         </header>
-        <section class="banner">
-            <h1>Hi,<br class="br1"> I am <span class="name">Neo</span></h1>
-            <div class="whoiam">and i am a full-stack web developer who is interested in VR and smart contract
-                development</div>
-        </section>
+
 
         <div class="jumbotron jumbotron-fluid">
             <div class="subcontainer">
-                <h1 class="display-4">
-                    <div class="glitch" data-text="HELLO WORLD">HELLO WORLD</div>
-                </h1>
+               
+                <section class="banner">
+                    <h1>Hi,<br class="br1"> I am <span class="name">Neo</span></h1>
+                    <div class="whoiam">and i am a full-stack web developer who is interested in VR and smart contract
+                    development</div>
+                </section>
+
                 <p class="lead"> We can work together to fuel <strong>the new web revolution</strong>. Decentralization
                     and VR
                     will be the foundational layers of the new digital paradigm shift, <strong>and I can help you
